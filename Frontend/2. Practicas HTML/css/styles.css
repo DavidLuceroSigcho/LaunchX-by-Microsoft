@@ -20,7 +20,7 @@ nav {
 }
 ul {
     list-style: none;
-    background-color: aquamarine;
+    background-color: #1c003b;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
@@ -35,29 +35,47 @@ li a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    color: blue;
+    color: #bc4ed8;
     text-align: center;
     border-radius: 5px;
 }
 li a:hover {
-    background-color: chocolate;
+    background-color: #002973;
 }
 .container-header {
- display: block;
+ width: 12%;
+ height: 12%;
+ border-radius: 30px;
 }
 table {
-    
     text-align: center;
 }
 th, tr, td {
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-color: brown;
     padding: 10px;
 }
-
+.sabor-table {
+    background-color: rgb(91, 204, 25);
+    border-color: brown;
+}
+.variedad-table {
+    background-color: rgb(204, 156, 25);
+    border-color: brown;
+}
+.precio-table {
+    background-color: rgb(204, 156, 25);
+    border-color: brown;
+}
+.descr-table {
+    background-color: #6499d6;
+}
+.prc-table {
+    background-color: #64b2d6;
+}
 footer {
- background-color: rgb(0, 255, 191);
+ background-color: #1c003b;
  text-align: center;
  position: fixed;
  bottom: 0px;
@@ -65,6 +83,28 @@ footer {
  height: 30px;
  padding: 10px 10px 0px 10px;
 }
+footer p {
+    color: #bc4ed8;
+}
+footer a {
+    display: inline-block;
+    border-radius: 2px;
+}
+
+footer a:hover {
+    background-color: #002973;
+    background-color: ;
+}
+
+.cprt 
+{
+  text-align: center;
+}
+.color-copyright
+{
+    color: rgb(136, 99, 6);
+}
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -84,13 +124,4 @@ footer {
     [class*="col-"] {
       width: 100%;
   }
-}
-
-.cprt 
-{
-  text-align: center;
-}
-.color-copyright
-{
-    color: rgb(136, 99, 6);
 }

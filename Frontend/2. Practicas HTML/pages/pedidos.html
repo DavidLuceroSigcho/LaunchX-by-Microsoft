@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Basic -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- site metas -->
+    <title>Pasteleria Sweet Andresita</title>
+    <meta name="keywords" content="Pasteleres, Keys, Bocalitos">
+    <meta name="description" content="Un mundo de dulce">
+    <!--AUTHOR AND ADMINS METAS-->
+    <meta name="author" content="David Lucero Sigcho by Clousofte">
+    <!-- site icons -->
+    <link rel="icon" href="../assets/img/Logotipo.png" type="image/gif" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../css/styles.css"> 
+</head>
+<body>
+    <script language="javascript">
+        function enviaFormulario() {
+            alert("Gracias por tu pedido!\nNos comunicaremos pronto contigo");
+        }
+      </script>
+    <!-- Header -->
+    <header>
+        <div>
+            <img src="../assets/img/Logotipo.png" class="container-header">
+        </div>
+        <!-- Menu -->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="administracion.html">Administración</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Fin Menu -->
+    </header>
+    <!-- Main-->
+    <br>
+    <main>
+    <h2>Pedidos</h2>
+    <p>Realizar tu orden</p>
+    <div class="col-6">
+        <form onsubmit="enviaFormulario(); return false;" id="forma" method="post">
+          <table>
+            <tr>
+              <th colspan="2">Tipo de Pastel</th>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <select id="pastel"  class="inputform">
+                  <option value="none" id="">Selecciona una opción por favor</option
+                  <optgroup label="Pasteles" id="">
+                    <option value="Xocolatl">Xocolatl Special $419</option>
+                    <option value="Unicornio">Unicornio $719</option>
+                    <option value="RedVelvet">Red Velvet $489</option>
+                    <option value="VainillaDurazno">Vainilla - Durazno $419</option>
+                    <option value="Sinfonia">Sinfonía De Fresa $459</option>
+                    <option value="ChocolateNuez">Chocolate Y Nuez $419</option>
+                  </optgroup>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">Fecha</th>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="datetime-local" id="fecha" name="fecha" name="fecha"  class="inputform">
+              </td>
+            </tr>
+            <tr>
+              <th>Sabores</th>
+              <th>Tamaño</th>
+            </tr>
+            <tr>
+              <td>
+                <select id="sabor">
+                  <option value="none" id="">El tipo de mi pastel</option>
+                  <optgroup label="Fondant" id="">
+                    <option value="Fondant">Fondant $500</option>
+                    <option value="Fotografia">Fotografia $600</option>
+                    <option value="Personaje">Personaje $500</option>
+                  </optgroup>
+                  <optgroup label="Tres Leches" id="">
+                    <option value="Vainilla">Vainilla $350</option>
+                    <option value="Cajeta">Cajeta $150</option>
+                    <option value="Rompope">Rompope $300</option>
+                  </optgroup>
+                  <optgroup label="Varios" id="">
+                    <option value="Cajeta">Cajeta $300</option>
+                    <option value="Queso-Piña">Queso-Piña $400</option>
+                    <option value="Choco-Nuez">Choco-Nuez $200</option>
+                    <option value="Cafe">Café $300</option>
+                    <option value="Choco-Queso">Choco-Queso $250</option>
+                    <option value="Trufa">Trufa $450</option>
+                  </optgroup>
+                </select>
+              </td>
+              <td>
+                <select id="tamanio">
+                  <option value="none" id="">Selecciona una opción</option>
+                  <optgroup label="Tamaño" id="">
+                    <option value="8-10">8-10 personas $0</option>
+                    <option value="12-15">12-15 personas $500</option>
+                    <option value="20">20 personas $700</option>
+                    <option value="30">30 personas $800</option>
+                  </optgroup>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">Nombre</th>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputform"/>
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">Teléfono</th>
+            </tr>               
+            <tr>
+              <td colspan="2">
+                <input type="text" id="telefono" name="telefono" placeholder="Teléfono" class="inputform"/>
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">Correo electrónico</th>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="email" id="email" name="email" placeholder="Email" class="inputform"/>
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">Descripción</th>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <textarea id="descripcion" name="descripcion" cols="40" rows="5" 
+                placeholder="Descripción" class="inputform"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="reset"></td>
+              <td><input type="submit" value="Submit"></td>
+            </tr>
+          </table>
+      </form>              
+      </div>
+
+    <div class="col-6">
+        <table>
+
+        </table>
+    </div>
+    <br>
+    <div>
+    <table>
+        <tr>
+            <th colspan="2" class="sabor-table">Sabores</th>
+            <th colspan="2" class="sabor-table">Sabores</th>
+        </tr>
+        <tr>
+            <th class="variedad-table">Descripcion</th>
+            <th class="precio-table">Precio</th>
+            <th class="variedad-table">Descripcion</th>
+            <th class="precio-table">Precio</th>
+        </tr>
+        <tr>
+            <td class="descr-table">Tres Leches Vainilia</td>
+            <td class="prc-table">$345</td>
+            <td class="descr-table">Tres Leches chocolate</td>
+            <td class="prc-table">$345</td>
+        </tr>
+        <tr>
+            <td class="descr-table">Flan Chocolate</td>
+            <td class="prc-table">$300</td>
+            <td class="descr-table">Flan Manga</td>
+            <td class="prc-table">$340</td>
+        </tr>
+
+        <tr>
+            <th colspan="2" class="sabor-table">Tamaño</th>
+            <th colspan="2" class="sabor-table">Tamaño</th>
+        </tr>
+        <tr>
+            <th class="variedad-table">Descripcion</th>
+            <th class="precio-table">Cant</th>
+            <th class="variedad-table">Descripcion</th>
+            <th class="precio-table">Cant</th>
+        </tr>
+        <tr>
+            <td class="descr-table">Individual</td>
+            <td class="prc-table">1</td>
+            <td class="descr-table">Familia Pequeña</td>
+            <td class="prc-table">3</td>
+        </tr>
+        <tr>
+            <td class="descr-table">Familia Mediana</td>
+            <td class="prc-table">3 a 5</td>
+            <td class="descr-table">Familia Grande</td>
+            <td class="prc-table">5 a 7</td>
+        </tr>
+    </table>
+    </div>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div>
+           <div>
+
+           </div>
+           <div>
+
+           </div>
+        </div>
+        <div class="cprt">
+            <p>Copyright © 2022 <a href="https://github.com/DavidLuceroSigcho/LaunchX-by-Microsoft/tree/main/Frontend/2.%20HTML" 
+                class="color-copyright" target="_blank">Pasteleria Sweet Andresita</a> | 
+              <a href="https://github.com/DavidLuceroSigcho" 
+                 class="color-copyright" target="_blank"> David Adriel Lucero Sigcho</a></p>
+          </div>
+    
+    </footer>
+</body>
+</html>
