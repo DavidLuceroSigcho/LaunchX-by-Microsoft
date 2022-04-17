@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0390df3a-3204-4217-b7b4-727a45d3eab1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../practica-comic/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-comic/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-comic/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-comic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-comic/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-comic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-comic/practica-comic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica-line-up.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-mona/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-mona/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-mona/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-mona/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-mona/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-mona/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-mona/practica-mona.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-multiverse/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-multiverse/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-multiverse/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-multiverse/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-multiverse/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-multiverse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practica-multiverse/practica-multiverse.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="27vuHjeHt0qcETFXXT0DqcRHTkR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0390df3a-3204-4217-b7b4-727a45d3eab1" name="Changes" comment="" />
+      <created>1650212798227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650212798227</updated>
+    </task>
+    <servers />
+  </component>
+</project>
