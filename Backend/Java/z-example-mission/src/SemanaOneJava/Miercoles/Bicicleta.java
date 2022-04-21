@@ -1,7 +1,7 @@
-package SemanaOneJava;
+package SemanaOneJava.Miercoles;
 
 public class Bicicleta {
-    // Caracteristicas
+    // Caracteristicas - Campos - Propiedades del Objeto
     public int pins, rodada;
     public double velocidad;
     public String color;
@@ -46,9 +46,9 @@ public class Bicicleta {
     }
     // Simb1 es el Line Feed como codigo ascii numero 10
     public String printState (){
-         return "pins: "+pins+simb1+
+        return "pins: "+pins+simb1+
                 "rodada: "+rodada+simb1+
-                 "color: "+color+simb1+
+                "color: "+color+simb1+
                 "velocidad: "+velocidad;
     }
 }

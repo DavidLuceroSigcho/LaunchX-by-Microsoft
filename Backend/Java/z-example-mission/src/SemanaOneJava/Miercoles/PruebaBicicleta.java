@@ -1,4 +1,5 @@
-package SemanaOneJava;
+package SemanaOneJava.Miercoles;
+
 
 public class PruebaBicicleta
 {
