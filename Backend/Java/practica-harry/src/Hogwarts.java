@@ -2,10 +2,18 @@ public class Hogwarts
 {
     public static void main(String[] args)
     {
-        Harry();
+        harry();
     }
-    public static void Harry()
+    public static void harry()
     {
-        HarryPotter Harry = new HarryPotter("");
+        HarryPotter Harry = new HarryPotter();
+        Harry.setNombre("Harry James Potter");
+        Harry.padres("");
+        Harry.setSexo("");
+        Harry.setSangre("Mestizo");
+        Harry.setBoggart("");
+        Harry.setPatronus("");
+        Harry.setCasaPertenece("Gryffindor");
+
     }
 }

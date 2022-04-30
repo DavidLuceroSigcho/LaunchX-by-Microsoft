@@ -2,6 +2,21 @@ public class Personaje
 {
     public String nombre, sexo, sangre, boggart, patronus, casaPertenece;
 
+    public Personaje ()
+    {
+
+    }
+
+    public Personaje (String nombre, String sexo, String sangre, String boggart, String patronus, String casaPertenece)
+    {
+        this.nombre = nombre;
+        this.sexo = sexo;
+        this.sangre = sangre;
+        this.boggart = boggart;
+        this.patronus = patronus;
+        this.casaPertenece = casaPertenece;
+    }
+
     public String getNombre () {  return nombre;  }
     public String getSexo () {  return sexo;  }
     public String getboggart () {  return boggart;  }
@@ -62,5 +77,15 @@ public class Personaje
             return true;
         }
         else return false;
+    }
+
+    public String showMessage()
+    {
+        return "Nombre: "+nombre+
+                "Sexo: "+sexo+
+                "Sangre: "+sangre+
+                "Boggart: "+boggart+
+                "Patronus: "+patronus+
+                "Casa Pertenece: "+casaPertenece;
     }
 }

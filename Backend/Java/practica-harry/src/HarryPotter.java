@@ -1,11 +1,22 @@
+
 public class HarryPotter extends Personaje
 {
-    double edad;
-    HarryPotter (String nombre, String patronus, String boggart,
-                 String sangre, String sexo, String casaPertenece)
+    public static void main(String[] args)
     {
-        super();
-        this.edad = edad;
 
     }
+    double edad, fechaNacimiento;
+    String padres;
+    HarryPotter ()
+    {
+        this.padres = padres;
+        this.edad = edad;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+    void show ()
+    {
+        System.out.println(nombre+" "+edad+" "+sexo+" "+fechaNacimiento+" "+
+                sangre+" "+casaPertenece+" "+patronus+" "+boggart+" "+padres+" ");
+    }
+
 }
