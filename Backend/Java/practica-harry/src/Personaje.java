@@ -1,43 +1,44 @@
+import Multiples.Escenario;
+import Multiples.Houses;
+import Multiples.Sexo;
+
 public class Personaje
 {
-    public String nombre, sexo, sangre, boggart, patronus, casaPertenece;
+    public String nombre, sangre, boggart, patronus;
+    public Houses houses;
+    public Sexo sexo;
+    public Escenario escenario;
 
     public Personaje ()
     {
 
     }
 
-    public Personaje (String nombre, String sexo, String sangre, String boggart, String patronus, String casaPertenece)
+    public Personaje (String nombre, String sangre, String boggart, String patronus)
     {
         this.nombre = nombre;
-        this.sexo = sexo;
         this.sangre = sangre;
         this.boggart = boggart;
         this.patronus = patronus;
-        this.casaPertenece = casaPertenece;
+        this.escenario = escenario;
+        this.houses = houses;
+        this.sexo = sexo;
     }
 
+    // GETTERS
+    public Sexo getSexo () {  return sexo;  }
+    public String getSangre () {  return sangre;  }
+    public Houses getHouses () {  return houses;  }
     public String getNombre () {  return nombre;  }
-    public String getSexo () {  return sexo;  }
     public String getboggart () {  return boggart;  }
     public String getPatronus () {  return patronus;  }
-    public String getCasaPertenece () {  return casaPertenece;  }
-    public String getSangre() {  return sangre;  }
+    public Escenario getEscenario () {  return escenario;  }
 
     public boolean setNombre (String nombre)
     {
         if (!nombre.isEmpty())
         {
             this.nombre = nombre;
-            return true;
-        }
-        else return false;
-    }
-    public boolean setSexo (String sexo)
-    {
-        if (!sexo.isEmpty())
-        {
-            this.sexo = sexo;
             return true;
         }
         else return false;
@@ -60,15 +61,6 @@ public class Personaje
         }
         else return false;
     }
-    public boolean setCasaPertenece (String casaPertenece)
-    {
-        if (!casaPertenece.isEmpty())
-        {
-            this.casaPertenece = casaPertenece;
-            return true;
-        }
-        else return false;
-    }
     public boolean setSangre (String sangre)
     {
         if (!sangre.isEmpty())
@@ -78,14 +70,24 @@ public class Personaje
         }
         else return false;
     }
+    public void setHouses(Houses houses)
+    {
+        this.houses = houses;
+    }
+    public void setSexo(Sexo sexo)
+    {
+        this.sexo = sexo;
+    }
+    public void setEscenario(Escenario escenario)
+    {
+        this.escenario = escenario;
+    }
 
     public String showMessage()
     {
         return "Nombre: "+nombre+
-                "Sexo: "+sexo+
                 "Sangre: "+sangre+
                 "Boggart: "+boggart+
-                "Patronus: "+patronus+
-                "Casa Pertenece: "+casaPertenece;
+                "Patronus: "+patronus;
     }
 }
