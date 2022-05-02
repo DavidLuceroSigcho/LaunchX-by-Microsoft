@@ -1,5 +1,6 @@
+package Personajes;
 
-public class HarryPotter extends Personaje
+public class AlbusDumbledore extends Personaje
 {
     public static void main(String[] args)
     {
@@ -7,7 +8,7 @@ public class HarryPotter extends Personaje
     }
     int edad;
     String padres, fechaNacimiento;
-    HarryPotter ()
+    public AlbusDumbledore()
     {
         this.padres = padres;
         this.edad = edad;
@@ -22,7 +23,7 @@ public class HarryPotter extends Personaje
         if ( edad > 10)
         {
             this.edad = edad;
-          return true;
+            return true;
         }
         else return false;
     }

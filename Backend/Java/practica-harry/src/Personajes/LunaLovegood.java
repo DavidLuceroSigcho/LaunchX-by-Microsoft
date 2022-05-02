@@ -1,4 +1,6 @@
-public class HermioneGranger extends Personaje
+package Personajes;
+
+public class LunaLovegood extends Personaje
 {
     public static void main(String[] args)
     {
@@ -6,7 +8,7 @@ public class HermioneGranger extends Personaje
     }
     int edad;
     String padres, fechaNacimiento;
-    HermioneGranger ()
+    public LunaLovegood()
     {
         this.padres = padres;
         this.edad = edad;
@@ -45,4 +47,3 @@ public class HermioneGranger extends Personaje
         return false;
     }
 }
-

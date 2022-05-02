@@ -1,3 +1,5 @@
+package Personajes;
+
 import Multiples.Escenario;
 import Multiples.Houses;
 import Multiples.Sexo;

@@ -1,4 +1,8 @@
-public class RonaldWeasley  extends Personaje
+package Personajes;
+
+import Personajes.Personaje;
+
+public class GinnyWeasley extends Personaje
 {
     public static void main(String[] args)
     {
@@ -6,7 +10,7 @@ public class RonaldWeasley  extends Personaje
     }
     int edad;
     String padres, fechaNacimiento;
-    RonaldWeasley ()
+    public GinnyWeasley()
     {
         this.padres = padres;
         this.edad = edad;
@@ -25,7 +29,6 @@ public class RonaldWeasley  extends Personaje
         }
         else return false;
     }
-
     public boolean setFechaNacimiento ( String fechaNacimiento)
     {
         if (!fechaNacimiento.isEmpty())
@@ -34,7 +37,6 @@ public class RonaldWeasley  extends Personaje
             return true;
         } else return false;
     }
-
     public boolean setPadres(String padres)
     {
         if (!padres.isEmpty())
