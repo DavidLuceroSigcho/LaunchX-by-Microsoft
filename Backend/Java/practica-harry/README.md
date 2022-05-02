@@ -4,9 +4,9 @@ Identificamos las caracteristicas más importantes de los personajes de la saga 
 
 ## Funcionamiento en el Intellij
 
-<img src="../../img/practica-harry_parte-1.png" alt="Parte 1 - Practica Harry" height="600">
+<img src="../assets/img/practica-harry_parte-1.png" alt="Parte 1 - Practica Harry" height="600">
 
-<img src="../../img/practica-harry_parte-1.png" alt="Parte 1 - Practica Harry" height="600">
+<img src="../assets/img/practica-harry_parte-2.png" alt="Parte 1 - Practica Harry" height="600">
 
 ## Diagramas de clase UML
 
