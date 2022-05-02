@@ -1,7 +1,6 @@
 import Multiples.Escenario;
 import Multiples.Houses;
 import Multiples.Sexo;
-
 import Personajes.*;
 
 public class Hogwarts
@@ -17,7 +16,6 @@ public class Hogwarts
         severus();
         albus();
     }
-
     // Inicializamos a Harry Potter
     public static void harry()
     {
@@ -158,7 +156,6 @@ public class Hogwarts
         // Imprimimos a Draco Malfoy
         System.out.println(msg);
     }
-
     // Inicializamos a Severus Snape
     public static void severus()
     {
@@ -205,5 +202,4 @@ public class Hogwarts
         // Imprimimos a Albus Snape
         System.out.println(msg);
     }
-
 }
