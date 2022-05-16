@@ -5,4 +5,8 @@ backend/java/practica-huevokinder/lib/imonsh.jar
 backend/java/practica-line-up/lib/imonsh.jar
 backend/java/practica-mona/lib/imonsh.jar
 backend/java/practica-multiverse/lib/imonsh.jar
-Backend/Java/z-example-mission/src/imonsh/*.java
+Backend/Java/z-example-mission/src/imonsh/Dialog.java
+Backend/Java/z-example-mission/src/imonsh/Color.java
+Backend/Java/z-example-mission/src/imonsh/Screen.java
+Backend/Java/z-example-mission/src/imonsh/Screen.java
+Backend/Java/z-example-mission/src/imonsh/TestScreen.java
